@@ -1,0 +1,303 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.nav{
+    display: flex;
+    gap: 6rem;
+}
+.navbar{
+    display: flex;
+    gap: 1rem;
+}
+.login{
+    display: flex;
+    gap: 3rem;
+    margin-left: 10rem;
+}
+.container1{
+    width: 75%;
+    margin: 0 auto;
+}
+.landing{
+    margin-top: 6rem;
+}
+.landing-img{
+    position: absolute;
+    top: 4rem;
+    right: 15rem;
+}
+.land-img{
+    border-radius: 3rem;
+}
+.card-section-landing{
+    display: flex;
+    position: relative;
+    margin-top: 8rem;
+    gap: 3rem;
+    z-index: 1;
+}
+.line-height{
+    line-height: 5px;
+    color: grey;
+}
+.landing-cards{
+    height: 12rem;
+    width: 20rem;
+    background-color: #fff;
+    padding-bottom: 5rem;
+    box-shadow: 5px 2px 8px 2px #888888;
+}
+.card-content{
+    background-color:#F84949;
+    width:25%; 
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.icons{
+    height: 4rem; 
+    width: 2rem; 
+    color:white;
+    margin-left: 15px; 
+}
+.button1{
+    background-color: rgb(104, 104, 238);
+    color: #fff;
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 10px;
+    font-size:medium;
+}
+.button2{
+    border: 2px solid  rgb(104, 104, 238);
+    color:  rgb(134, 134, 238);;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 10px;
+    font-size:medium;
+}
+.button1:hover{
+    cursor:pointer;
+}
+.button2:hover{
+    cursor:pointer;
+}
+.watch-courses{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 19.5rem;
+    margin-bottom: 22rem;
+}
+.watch-course-div{
+    margin-top: 15rem;
+    margin-bottom: 22rem;
+}
+.watch-course-img{
+    position: absolute;
+    top:77.3rem;
+    right:15rem;
+}
+.icons2{
+    height: 1rem;
+    width: 1rem;
+    color: rgb(104, 104, 238);
+    position: relative;
+    top: 3px;
+    right: 0rem;
+}
+.icons2:hover{
+    cursor: pointer;
+}
+.watch-learn-more:hover{
+    cursor: pointer;
+}
+.featured-products{
+    background-color: #FCD6D2;
+}
+.featured-wrapper{
+    width: 75%;
+    margin:auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.img1{
+    background-image:url('./images/jo-szczepanska-5aiRb5f464A-unsplash.jpg');
+    height: 15rem;
+    width: 20rem;
+    background-size: 23rem;
+}
+.img2{
+    background-image:url('./images/adam-winger-7fF0iei80AQ-unsplash.jpg');
+    height: 15rem;
+    width: 20rem;
+    background-size: 23rem;
+}
+.img3{
+    background-image:url('./images/thanzi-thanzeer-dym3_MMlJGI-unsplash.jpg');
+    height: 15rem;
+    width: 20rem;
+    background-size: 23rem;
+}
+.purchase-cards{
+    display: flex;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+.sale{
+    background-color: #F84949;
+    width: 10%;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icons3{
+    height: 1rem;
+    width: 1rem;
+    color: yellow;
+}
+.ratings{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    gap: 2.5rem;
+}
+.info{
+    background-color: #fff;
+    padding-bottom: 2rem;
+}
+.rate{
+    background-color: black;
+    border-radius: 2rem;
+    margin-top: 10px;
+    width: 5rem;
+    max-height: 40px;
+    background-size: 1rem;
+}
+.desc{
+    width: 85%;
+    margin:0 auto;
+}
+.icons4{
+    height: 1rem;
+    width: 1rem;
+    color: grey;
+    position: relative;
+    top: 10px;
+   
+}
+.sale-number{
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+    gap: 3px;
+}
+.discount{
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+    gap: 0.3rem;
+}
+.icons5{
+    width: 1rem;
+    height: 1rem;
+    color: lightskyblue;
+    position: relative;
+    top: 2px;
+}
+.icons6{
+    width: 1rem;
+    height: 1rem;
+    color: lightcoral;
+    position: relative;
+    top: 2px;
+}
+.icons7{
+    width: 1rem;
+    height: 1rem;
+    color: lightgreen;
+    position: relative;
+    top: 2px;
+}
+.stats{
+    width: 85%;
+    margin:0 auto;
+    display: flex;
+    gap: 1rem;
+}
+.wrap-button{
+    width: 85%;
+    margin:auto;
+    margin-top: 1rem;
+}
+.button3{
+    background-color: #fff;
+    border: 2px solid rgb(104, 104, 238);
+    border-radius: 2rem;
+}
+.button3:hover{
+    cursor: pointer;
+}
+.testimonials{
+    width: 75%;
+    margin:auto;
+    margin-top: 15rem;
+}
+.comments{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10rem;
+}
+.testi1{
+    width: 20%;
+    height: 20rem;
+    margin-top: 10rem;
+
+}
+.img-test{
+    display: flex;
+    gap: 1rem;
+}
+.contact{
+    margin-top: 20rem;
+}
+.inp{
+    width: 35%;
+    margin-left: 27rem;
+    height: 3rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid grey;
+    
+}
+.subscribe{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+    
+}
+.subscribe-button{
+    background-color: rgb(104, 104, 238);
+    color: #fff;
+    width: 7rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.footer{
+    width:75%;
+    margin:auto;
+    display: flex;
+    gap: 10rem;
+}
+.social-icons{
+    display: flex;
+    gap:2rem;
+}
+.icons8{
+    height: 1.5rem;
+    width: 1.5rem;
+    color: skyblue;
+    margin-top: 2rem;
+}
